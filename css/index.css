@@ -47,13 +47,51 @@ table {
 	border-spacing: 0;
 }
 
+
+
+
+
 * {
     box-sizing: border-box;
+   
 }
+
 
 html, body {
     height: 100%;
     font-family: 'Roboto', sans-serif;
+    border:1px solid black;
+}
+
+header nav {
+    width:50%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:15px;
+}
+
+header nav a {
+    text-decoration:none;
+}
+
+.logo {
+    width:20%;
+    margin:60px;
+}
+
+.links {
+    width:60%;
+    display:flex;
+    justify-content:space-around;
+    text-decoration:none;
+}
+
+.highway {
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
 }
 
 h1, h2, h3, h4, h5 {
@@ -64,6 +102,17 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+button {
+    background-color:white;
+    font-size:16px;
+    border:2px solid black;
+    padding:10px 25px;
+    border-radius:30px;
+
+
+    
 }
 
 .container {
@@ -143,4 +192,11 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+
+.text {
+    display:flex;
+    align-items:center;
+    flex-wrap:wrap;
 }
