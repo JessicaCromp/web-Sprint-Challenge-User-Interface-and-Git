@@ -29,8 +29,27 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
 }
+/* Home header styles*/
+
+header nav {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:10vh;
+    width:800px;
+    margin:0 auto;
+}
+
+a {
+    text-decoration:none;
+    color:black
+}
+
+
+
+
 ol, ul {
 	list-style: none;
 }
@@ -49,6 +68,7 @@ table {
 
 * {
     box-sizing: border-box;
+    
 }
 
 html, body {
@@ -81,7 +101,7 @@ p {
 
 .top-content .text-container {
     width: 48%;
-    padding: 0 1%;
+    padding:2% 1%;
     padding-bottom: 20px;  
 }
 
@@ -110,6 +130,10 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1 {
+    background-color:teal;
 }
 
 .bottom-content {
@@ -143,4 +167,45 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*About page styles*/
+
+.containeraboutpage p {
+padding:1% 0%;
+border-bottom: 1px dotted black;
+}
+
+.topinfo {
+display:flex;
+flex-direction:center;
+
+
+}
+.bottominfo {
+    display:flex;
+}
+
+.infobox {
+
+    align-items:center;
+    margin:3%;
+    border-bottom: 1px dotted black;
+}
+
+.infobox p {
+    width:50%;
+}
+
+button {
+    border:3px solid black;
+    border-radius:10%;
+    padding:1% 3%;
+    font-size:1rem;
+    background-color:white;
+    margin:3%;
+}
+
+.worktogether {
+    padding:5% 3%;
 }
